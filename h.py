@@ -6,13 +6,14 @@ def ramji():
     init(autoreset=True)
 
     lyrics = [
-        "तन मोरा राम, मन मोरा राम..........",
-        "तन मोरा राम, मन मोरा राम",
-        "मोरा कण कण हो..., राम ही राम........",
-        "राम ही पार लगावेंगे"
+        "तन मोरा राम🥰, मन मोरा राम🥰....",
+        "तन मोरा राम🥰, मन मोरा राम🥰",
+        "मोरा कण कण हो...., राम🥰 ही राम🥰....",
+        "राम 🥰 ही पार लगावेंगे .....❤️,",
+        "अजी मैं तो राम🥰 ही राम भजूँ री मेरे राम🥰...."
     ]
 
-    delays = [1,.80,0.5,1]
+    delays = [1,.80,1,3,1]
 
     pygame.mixer.init()
     pygame.mixer.music.load("ram.mp3")
@@ -24,7 +25,7 @@ def ramji():
 
         for char in line:
             print(Fore.YELLOW + char, end='', flush=True)
-            time.sleep(0.12)
+            time.sleep(0.14)
 
         time.sleep(delays[i])
         print(Style.RESET_ALL)
